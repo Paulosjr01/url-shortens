@@ -1,0 +1,21 @@
+{
+  "name": "url-shortens",
+  "version": "1.0.0",
+  "description": "url shortner with front for dio course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Paulo SJR",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "shortid": "^2.2.16"
+  }
+}
